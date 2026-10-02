@@ -30,8 +30,6 @@ public class Problem2Main {
 }
 
 
-// ---------------- Leave Status ----------------
-
 enum LeaveStatus {
     PENDING,
     APPROVED,
@@ -39,7 +37,7 @@ enum LeaveStatus {
 }
 
 
-// ---------------- Employee ----------------
+
 
 abstract class Employee {
 
@@ -85,7 +83,7 @@ abstract class Employee {
 }
 
 
-// ---------------- Full Time Employee ----------------
+
 
 class FullTimeEmployee extends Employee {
 
@@ -100,7 +98,7 @@ class FullTimeEmployee extends Employee {
 }
 
 
-// ---------------- Part Time Employee ----------------
+
 
 class PartTimeEmployee extends Employee {
 
@@ -115,7 +113,6 @@ class PartTimeEmployee extends Employee {
 }
 
 
-// ---------------- Contractor ----------------
 
 class Contractor extends Employee {
 
@@ -130,7 +127,7 @@ class Contractor extends Employee {
 }
 
 
-// ---------------- Leave Request ----------------
+
 
 class LeaveRequest {
 
@@ -195,8 +192,6 @@ class LeaveRequest {
     }
 }
 
-
-// ---------------- Reviewer ----------------
 
 class Reviewer {
 
