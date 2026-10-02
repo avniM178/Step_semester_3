@@ -53,8 +53,6 @@ public class Problem4Main {
 }
 
 
-// ---------------- Customer ----------------
-
 class Customer {
 
     private String name;
@@ -69,7 +67,6 @@ class Customer {
 }
 
 
-// ---------------- Room ----------------
 
 abstract class Room {
 
@@ -96,8 +93,6 @@ abstract class Room {
 }
 
 
-// ---------------- Standard Room ----------------
-
 class StandardRoom extends Room {
 
     public StandardRoom(
@@ -114,8 +109,6 @@ class StandardRoom extends Room {
     }
 }
 
-
-// ---------------- Deluxe Room ----------------
 
 class DeluxeRoom extends Room {
 
@@ -134,8 +127,6 @@ class DeluxeRoom extends Room {
 }
 
 
-// ---------------- Suite ----------------
-
 class Suite extends Room {
 
     public Suite(
@@ -153,7 +144,6 @@ class Suite extends Room {
 }
 
 
-// ---------------- Reservation ----------------
 
 class Reservation {
 
@@ -218,8 +208,6 @@ class Reservation {
     }
 }
 
-
-// ---------------- Hotel ----------------
 
 class Hotel {
 
