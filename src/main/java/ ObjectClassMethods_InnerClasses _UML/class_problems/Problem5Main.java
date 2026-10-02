@@ -24,7 +24,6 @@ public class Problem5Main {
         orderX.pay(creditCard);
 
 
-        // Empty order
 
         Customer customerY =
                 new Customer("Customer Y");
@@ -35,7 +34,7 @@ public class Problem5Main {
         orderY.pay(creditCard);
 
 
-        // PayPal failure
+
 
         Customer customerZ =
                 new Customer("Customer Z");
@@ -56,8 +55,6 @@ public class Problem5Main {
 }
 
 
-// ---------------- Customer ----------------
-
 class Customer {
 
     private String name;
@@ -76,7 +73,6 @@ class Customer {
 }
 
 
-// ---------------- Product ----------------
 
 class Product {
 
@@ -101,8 +97,6 @@ class Product {
 }
 
 
-// ---------------- Order Item ----------------
-
 class OrderItem {
 
     private Product product;
@@ -122,7 +116,6 @@ class OrderItem {
 }
 
 
-// ---------------- Order ----------------
 
 class Order {
 
@@ -224,15 +217,12 @@ class Order {
 }
 
 
-// ---------------- Order Status ----------------
 
 enum OrderStatus {
     PENDING,
     PAID
 }
 
-
-// ---------------- Payment Method ----------------
 
 interface PaymentMethod {
 
@@ -242,7 +232,6 @@ interface PaymentMethod {
 }
 
 
-// ---------------- Credit Card ----------------
 
 class CreditCardPayment implements PaymentMethod {
 
@@ -265,7 +254,6 @@ class CreditCardPayment implements PaymentMethod {
 }
 
 
-// ---------------- PayPal ----------------
 
 class PayPalPayment implements PaymentMethod {
 
@@ -287,8 +275,6 @@ class PayPalPayment implements PaymentMethod {
     }
 }
 
-
-// ---------------- Bank Transfer ----------------
 
 class BankTransferPayment implements PaymentMethod {
 
