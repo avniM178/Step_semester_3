@@ -38,7 +38,7 @@ public class Problem3Main {
 }
 
 
-// ---------------- Student ----------------
+
 
 class Student {
 
@@ -54,7 +54,7 @@ class Student {
 }
 
 
-// ---------------- Question ----------------
+
 
 abstract class Question {
 
@@ -84,7 +84,7 @@ abstract class Question {
 }
 
 
-// ---------------- MCQ ----------------
+
 
 class MultipleChoiceQuestion extends Question {
 
@@ -108,7 +108,6 @@ class MultipleChoiceQuestion extends Question {
 }
 
 
-// ---------------- True/False ----------------
 
 class TrueFalseQuestion extends Question {
 
@@ -132,7 +131,7 @@ class TrueFalseQuestion extends Question {
 }
 
 
-// ---------------- Short Answer ----------------
+
 
 class ShortAnswerQuestion extends Question {
 
@@ -156,7 +155,7 @@ class ShortAnswerQuestion extends Question {
 }
 
 
-// ---------------- Examination ----------------
+
 
 class Examination {
 
@@ -190,7 +189,6 @@ class Examination {
 }
 
 
-// ---------------- Attempt ----------------
 
 class Attempt {
 
